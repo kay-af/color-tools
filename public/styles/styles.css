@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.fade-in {
+    animation: fade 1s ease-out both;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.delay-1 {
+    animation-delay: 500ms;
+}
+
+.delay-2 {
+    animation-delay: 1.5s;
+}
+
+.delay-3 {
+    animation-delay: 2.5s;
+}
+
+.whats-new-list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    display: table;
+    margin: auto;
+    padding: 0;
+}
+
+.ref-list {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    display: table;
+    text-align: left;
+}
+
+.pad-list {
+    list-style: none;
+    padding-left: 40px;
+}
